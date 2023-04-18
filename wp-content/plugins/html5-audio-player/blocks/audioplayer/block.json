@@ -1,0 +1,111 @@
+{
+  "apiVersion": "1",
+  "name": "h5ap/audioplayer",
+  "title": "HTML5 Audio Player",
+  "description": "",
+  "category": "media",
+  "icon": "format-audio",
+  "keywords": ["HTML5 Audio Player", "Media Player", "Audio Player"],
+  "textdomain": "h5ap",
+  "attributes": {
+    "uniqueId": { "type": "string", "default": "uniqueId" },
+    "style": {
+      "type": "string"
+    },
+    "clientId": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string",
+      "default": ""
+    },
+    "poster": {
+      "type": "string",
+      "default": "poster"
+    },
+    "title": {
+      "type": "string",
+      "default": "audio title"
+    },
+    "color": {
+      "type": "string",
+      "default": "#87ceeb"
+    },
+    "primaryColor": {
+      "type": "string",
+      "default": "#4a5464"
+    },
+    "hoverColor": {
+      "type": "string",
+      "default": "#00B3FF"
+    },
+    "bgColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "skin": {
+      "type": "string",
+      "default": "Default"
+    },
+    "repeat": {
+      "type": "boolean",
+      "default": false
+    },
+    "autoplay": {
+      "type": "boolean",
+      "default": false
+    },
+    "muted": {
+      "type": "boolean",
+      "default": false
+    },
+    "seekTime": {
+      "type": "number",
+      "default": 10
+    },
+    "preload": {
+      "type": "string",
+      "default": "metadata"
+    },
+    "download": {
+      "type": "boolean",
+      "default": true
+    },
+    "width": {
+      "type": "string",
+      "default": "100%"
+    },
+    "radius": {
+      "type": "object",
+      "default": {
+        "number": 10,
+        "unit": "px"
+      }
+    },
+    "controls": {
+      "type": "object",
+      "default": {
+        "restart": false,
+        "rewind": false,
+        "play": true,
+        "fast-forward": false,
+        "progress": true,
+        "duration": false,
+        "current-time": true,
+        "mute": true,
+        "volume": true,
+        "settings": true,
+        "downlaod": false
+      }
+    }
+  },
+  "supports": {
+    "html": false,
+    "lock": false
+  },
+  "example": {
+    "attributes": {
+      "preview": true
+    }
+  }
+}

@@ -1,0 +1,347 @@
+# Translation of Plugins - Smush &#8211; Lazy Load Images, Optimize &amp; Compress Images - Stable (latest release) in Malay
+# This file is distributed under the same license as the Plugins - Smush &#8211; Lazy Load Images, Optimize &amp; Compress Images - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-09-01 12:39:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: ms\n"
+"Project-Id-Version: Plugins - Smush &#8211; Lazy Load Images, Optimize &amp; Compress Images - Stable (latest release)\n"
+
+#: app/pages/class-integrations.php:88
+msgid "Note: For this process to happen automatically you need automatic smushing enabled."
+msgstr "Perhatian: Untuk proses ini berjalan secara automatik, anda perlu menghidupkan smushing automatik. "
+
+#: app/common/meta-box-footer.php:35
+msgid "Smush will automatically check for any images that need re-smushing."
+msgstr "Smush akan memeriksa secara automatik sebarang gambar yang perlu dismush semula. "
+
+#: app/class-abstract-summary-page.php:127
+msgid "PNG to JPEG savings"
+msgstr "Simpanan PNG ke JPEG "
+
+#: core/class-core.php:309
+msgid "Stop current bulk smush process."
+msgstr "Hentikan proses smushing pukal terkini."
+
+#: app/views/nextgen/summary-meta-box.php:49
+msgid "Total savings"
+msgstr "Simpanan keseluruhan"
+
+#: app/views/nextgen/summary-meta-box.php:41
+msgid "Images smushed"
+msgstr "Gambar-gambar telah dismush"
+
+#: core/class-configs.php:607 core/integrations/class-s3.php:194
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+#: core/integrations/class-s3.php:402
+msgid "Amazon S3 support is active."
+msgstr "Sokongan Amazon S3 sedang aktif."
+
+#: app/class-abstract-summary-page.php:197
+#: app/class-abstract-summary-page.php:210 app/modals/directory-list.php:56
+msgid "Choose directory"
+msgstr "Pilih direktori"
+
+#: core/integrations/class-s3.php:193
+msgid "Enable Amazon S3 support"
+msgstr "Hidupkan sokongan Amazon S3"
+
+#: core/class-configs.php:608 core/integrations/class-nextgen.php:127
+msgid "NextGen Gallery"
+msgstr "Galeri NextGen "
+
+#: app/class-abstract-summary-page.php:193
+msgid "Smush images that aren't located in your uploads folder."
+msgstr "Smush gambar-gambar yang tidak berada di fail muat naik anda. "
+
+#: app/class-ajax.php:471
+msgid "We haven’t found any images in your media library yet so there’s no smushing to be done! Once you upload images, reload this page and start playing!"
+msgstr "Kami belum temui sebarang gambar dari pustaka media anda, jadi tiada smushing yang perlu dilakukan! Apabila anda sudah muat naik gambar-gambar, muat semula halaman ini dan mula bermain!"
+
+#: app/views/smush-upgrade-page.php:116 core/class-settings.php:269
+msgid "Auto-convert PNGs to JPEGs (lossy)"
+msgstr "Penukaran auto PNG ke JPEG (hilang)"
+
+#: app/pages/class-bulk.php:142
+msgid "Max height"
+msgstr "Ketinggian maks"
+
+#: app/pages/class-bulk.php:130
+msgid "Max width"
+msgstr "Kelebaran maks"
+
+#: core/class-core.php:302
+msgid "Ajax Error"
+msgstr "Ralat Ajax"
+
+#: app/views/directory/meta-box.php:28
+msgid "CHOOSE DIRECTORY"
+msgstr "PILIH DIREKTORI"
+
+#: core/modules/class-dir.php:316
+msgid "Image couldn't be optimized"
+msgstr "Gambar tidak boleh dioptimalkan"
+
+#: core/modules/class-dir.php:280
+msgid "Incorrect image id"
+msgstr "Pengenalan gambar yang tidak betul"
+
+#: core/class-core.php:296
+msgid "Missing file path."
+msgstr "Laluan fail hilang."
+
+#: app/class-abstract-summary-page.php:152
+#: app/class-abstract-summary-page.php:203
+msgid "Updating Stats"
+msgstr "Sedang mengemaskini Statistik"
+
+#: core/modules/class-dir.php:926
+msgid "We could not find any images in the selected directory."
+msgstr "Kami tidak dapat temui sebarang gambar dalam direktori terpilih. "
+
+#: core/class-core.php:299
+msgid "image could not be smushed."
+msgstr "gambar tidak boleh dismush."
+
+#: core/class-core.php:300
+msgid "images could not be smushed."
+msgstr "gambar-gambar tidak boleh dismush."
+
+#: app/views/nextgen/meta-box-header.php:26
+msgid "Manage Galleries"
+msgstr "Uruskan Galeri"
+
+#: app/class-media-library.php:738
+msgid "Detailed stats for all the image sizes"
+msgstr "Statistik terperinci untuk semua saiz gambar"
+
+#: app/views/nextgen/meta-box.php:69
+msgid "BULK SMUSH"
+msgstr "SMUSH PUKAL"
+
+#: app/modals/progress-dialog.php:99
+msgid "CANCEL"
+msgstr "BATAL"
+
+#: core/integrations/class-nextgen.php:547
+msgid "Image not restored, Nonce verification failed."
+msgstr "Gambar tidak boleh dipulihkan, penentusahan nonce gagal. "
+
+#: app/pages/class-bulk.php:175
+msgid "Just to let you know, the height you’ve entered is less than your largest image and may result in pixelation."
+msgstr "Untuk pengetahuan anda, ketinggian yang anda masukkan adalah kurang dari gambar terbesar anda dan mungkin menyebabkan pengpikselan. "
+
+#: app/pages/class-bulk.php:167
+msgid "Just to let you know, the width you've entered is less than your largest image and may result in pixelation."
+msgstr "Untuk pengetahuan anda, kelebaran yang anda masukkan adalah kurang dari gambar terbesar anda dan mungkin menyebabkan pengpikselan. "
+
+#: app/class-abstract-page.php:610
+msgid "Lets you check if any images can be further optimized. Useful after changing settings."
+msgstr "Membenarkan anda memeriksa jika ada sebarang gambar yang perlu dioptimalkan lagi. Berguna selepas penukaran tetapan. "
+
+#: app/views/bulk/meta-box-header.php:26
+msgid "Media Library"
+msgstr "Pustaka Media"
+
+#: app/views/bulk/media-lib-empty.php:4 app/views/nextgen/meta-box.php:24
+msgid "No attachments found - Upload some images"
+msgstr "Tiada lampiran ditemui - Muat naik sedikit gambar"
+
+#: app/views/bulk/media-lib-empty.php:16
+#: app/views/dashboard/bulk/media-lib-empty.php:10
+#: app/views/nextgen/meta-box.php:41
+msgid "UPLOAD IMAGES"
+msgstr "MUAT NAIK GAMBAR-GAMBAR"
+
+#: core/integrations/class-nextgen.php:648 core/modules/class-backup.php:593
+msgid "Unable to restore image"
+msgstr "Tidak boleh memulihkan gambar"
+
+#. translators: %s: error message
+#: core/integrations/class-nextgen.php:701
+msgid "Unable to smush image, %s"
+msgstr "Tidak boleh mengsmush gambar, %s"
+
+#: core/integrations/class-nextgen.php:359
+#: core/integrations/class-nextgen.php:360
+msgid "We couldn't find the metadata for the image, possibly the image has been deleted."
+msgstr "Kami tidak boleh mencari maklumat meta untuk gambar ini, mungkin gambar ini telah dibuang. "
+
+#: core/integrations/class-nextgen.php:661
+msgid "We couldn't process the image, fields empty."
+msgstr "Kami tidak boleh mengproses gambar ini, lapangan-lapangan kosong. "
+
+#: app/class-abstract-page.php:695
+msgid "Your settings have been updated!"
+msgstr "Tetapan anda sudah dikemaskini!"
+
+#: core/class-core.php:280 core/integrations/nextgen/class-admin.php:220
+msgid "All images are fully optimized."
+msgstr "Semua gambar telah dioptimalkan sepenuhnya. "
+
+#: core/integrations/class-nextgen.php:128
+msgid "Allow smushing images directly through NextGen Gallery settings."
+msgstr "Benarkan gambar-gambar smushing terus lalui tetapan Galeri NextGen."
+
+#: core/integrations/class-nextgen.php:126
+msgid "Enable NextGen Gallery integration"
+msgstr "Bolehkan penyepaduan Galeri NextGen"
+
+#: core/integrations/class-nextgen.php:537
+msgid "Error in processing restore action, Fields empty."
+msgstr "Ralat semasa proses tindakan memulih, Lapangan-lapangan kosong. "
+
+#: app/class-ajax.php:417 core/integrations/class-nextgen.php:670
+msgid "Image couldn't be smushed as the nonce verification failed, try reloading the page."
+msgstr "Gambar tidak boleh dismush kerana penentusahan nonce gagal, cuba muat semula halaman. "
+
+#: app/class-ajax.php:408
+msgid "Image not smushed, fields empty."
+msgstr "Gambar tidak dismush, lapangan-lapangan kosong. "
+
+#: core/class-core.php:294
+msgid "We successfully verified your membership, all the Pro features should work completely. "
+msgstr "Kami sudah berjaya menentusahkan keahlian anda, semua ciri Pro sepatutnya berfungsi sepenuhnya. "
+
+#: app/class-ajax.php:509
+msgid "Yay! All images are optimized as per your current settings."
+msgstr "Yay! Semua gambar telah dioptimalkan mengikut tetapan terkini anda. "
+
+#. translators: %s: total number of images
+#: core/modules/class-dir.php:1231
+msgid "You've smushed %d images in total."
+msgstr "Anda telah mengsmush %d gambar secara keseluruhan. "
+
+#: core/class-core.php:295
+msgid "Your membership couldn't be verified."
+msgstr "Keahlian anda tidak boleh ditentusahkan. "
+
+#: app/class-abstract-page.php:668 app/class-admin.php:516
+#: app/class-admin.php:645 app/class-admin.php:688
+#: app/pages/class-directory.php:161 app/pages/class-directory.php:162
+#: app/views/bulk/unlimited/meta-box.php:32 core/class-core.php:316
+#: core/external/free-dashboard/module.php:496
+#: core/external/plugin-notice/notice.php:485
+msgid "Dismiss"
+msgstr "Batal"
+
+#: app/class-abstract-page.php:245
+msgid "Install Plugin"
+msgstr "Pasang Plugin"
+
+#: app/pages/class-bulk.php:609
+msgid "New"
+msgstr "Baharu"
+
+#: app/class-admin.php:233 app/class-admin.php:327 app/pages/class-bulk.php:86
+#: _src/react/modules/configs.jsx:150
+#: app/assets/js/smush-react-configs.min.js:6377
+msgid "Settings"
+msgstr "Tetapan"
+
+#. translators: %s: Directory path
+#: core/class-error-handler.php:489
+msgid "%s is not writable"
+msgstr "%s tidak boleh ditulis"
+
+#: core/class-core.php:301 core/integrations/nextgen/class-stats.php:273
+#: core/integrations/nextgen/class-stats.php:276
+msgid "Already Optimized"
+msgstr "Telah dioptimalkan"
+
+#: core/modules/class-smush.php:524
+msgid "Error posting to API: %s"
+msgstr "Ralat mengepos ke API: %s"
+
+#: core/class-error-handler.php:481
+msgid "File path is empty"
+msgstr "Laluan fail kosong"
+
+#: core/modules/class-smush.php:543
+msgid "Image couldn't be smushed"
+msgstr "Gambar tidak boleh dismushkan"
+
+#: app/class-media-library.php:368 app/class-media-library.php:973
+#: core/integrations/nextgen/class-stats.php:546
+msgid "Image size"
+msgstr "Saiz gambar"
+
+#: app/class-ajax.php:387 core/integrations/class-nextgen.php:432
+msgid "No attachment ID was provided."
+msgstr "Tiada lampiran ID telah diberikan."
+
+#: core/external/free-dashboard/module.php:440
+msgid "No thanks"
+msgstr "Tidak, terima kasih"
+
+#: app/class-media-library.php:933 core/class-core.php:314
+#: core/class-error-handler.php:483 core/class-rest.php:82
+#: core/integrations/nextgen/class-admin.php:309
+msgid "Not processed"
+msgstr "Tidak diproses"
+
+#: core/external/free-dashboard/module.php:439
+#: core/external/free-dashboard/module.php:495
+msgid "Saving"
+msgstr "Sedang menyimpan"
+
+#: app/class-media-library.php:369 app/class-media-library.php:974
+#: core/integrations/nextgen/class-stats.php:547
+msgid "Savings"
+msgstr "Simpanan"
+
+#: core/modules/class-smush.php:560
+msgid "Smush data corrupted, try again."
+msgstr "Maklumat Smush rosak, cuba lagi sekali"
+
+#: core/integrations/nextgen/class-stats.php:319
+msgid "Smush stats"
+msgstr "Statistik Smush"
+
+#: app/class-media-library.php:1171 core/class-core.php:276
+#: core/class-settings.php:235 core/integrations/nextgen/class-admin.php:217
+#: core/integrations/nextgen/class-stats.php:360
+msgid "Super-Smush"
+msgstr "Super-Smush"
+
+#: core/external/free-dashboard/module.php:435
+#: core/external/free-dashboard/module.php:491
+msgid "Thanks :)"
+msgstr "Terima kasih :)"
+
+#: core/modules/class-smush.php:549
+msgid "Unknown API error"
+msgstr "Ralat API yang tidak dikenali"
+
+#: app/class-admin.php:374 app/modals/checking-files.php:46
+#: app/modals/restore-images.php:167 app/modals/webp-delete-all.php:63
+msgid "WP Smush"
+msgstr "WP Smush"
+
+#. Author of the plugin
+msgid "WPMU DEV"
+msgstr "WPMU DEV"
+
+#: app/class-ajax.php:379 app/class-ajax.php:425 app/class-ajax.php:831
+#: app/class-ajax.php:965 core/integrations/class-nextgen.php:424
+#: core/modules/class-backup.php:404
+msgid "You don't have permission to work with uploaded files."
+msgstr "Anda tidak mempunyai kebenaran untuk bekerja dengan fail yang telah dimuatnaikkan. "
+
+#: app/class-media-library.php:409
+msgid "Smush Now!"
+msgstr "Smush Sekarang!"
+
+#: core/class-core.php:304
+msgid "All Done!"
+msgstr "Semua Selesai!"
+
+#: core/class-core.php:277 core/integrations/nextgen/class-admin.php:218
+msgid "Smush Now"
+msgstr "Smush Sekarang"

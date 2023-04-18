@@ -1,0 +1,407 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Accordions\n"
+"POT-Creation-Date: 2020-03-12 23:55+0600\n"
+"PO-Revision-Date: 2018-10-08 21:27+0600\n"
+"Last-Translator: \n"
+"Language-Team: PickPlugins <support@pickplugins.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ../includes\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: class-license.php:59
+msgid "Unexpected Error! The query returned with an error."
+msgstr ""
+
+#: functions-accordions-hook.php:20 functions-accordions-hook.php:23
+msgid "Expand all"
+msgstr ""
+
+#: functions-accordions-hook.php:21 functions-accordions-hook.php:24
+msgid "Collapse all"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:18
+#, php-format
+msgid "%s Stats"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:70
+msgid "Enable search"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:71
+msgid "Display search input field."
+msgstr ""
+
+#: functions-accordions-meta-hook.php:75 functions-accordions-meta-hook.php:138
+#: functions-accordions-meta-hook.php:153
+#: functions-accordions-meta-hook.php:181
+#: functions-accordions-meta-hook.php:257
+#: functions-accordions-meta-hook.php:328
+#: functions-accordions-meta-hook.php:358
+#: functions-accordions-meta-hook.php:415
+#: functions-accordions-meta-hook.php:566
+msgid "No"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:76 functions-accordions-meta-hook.php:139
+#: functions-accordions-meta-hook.php:154
+#: functions-accordions-meta-hook.php:182
+#: functions-accordions-meta-hook.php:258
+#: functions-accordions-meta-hook.php:329
+#: functions-accordions-meta-hook.php:359
+#: functions-accordions-meta-hook.php:416
+#: functions-accordions-meta-hook.php:567
+msgid "Yes"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:85
+msgid "Search placeholder text"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:86
+msgid "You can set custom placeholder text."
+msgstr ""
+
+#: functions-accordions-meta-hook.php:89
+msgid "Search here..."
+msgstr ""
+
+#: functions-accordions-meta-hook.php:133
+#: functions-accordions-meta-hook.php:134
+msgid "Enable url hash"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:148
+msgid "Click header to scroll top"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:149
+msgid "When click on accordion header it will automatically scroll top"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:164
+msgid "Offset from top when scroll top enabled"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:165
+msgid "Offset Value: add some value to fix the top position, ex: 120, or -120"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:168
+msgid "120"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:176
+msgid "Enable header text toggle"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:177
+msgid "When user click on header text will toggled"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:191
+msgid "Animation style"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:192
+msgid "Animation style for accordion"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:196
+msgid "linear"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:197
+msgid "swing"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:198
+msgid "easeInQuad"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:199
+msgid "easeOutQuad"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:200
+msgid "easeInOutQuad"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:201
+msgid "easeInCubic"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:202
+msgid "easeOutCubic"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:203
+msgid "easeInOutCubic"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:204
+msgid "easeInQuart"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:205
+msgid "easeOutQuart"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:206
+msgid "easeInOutQuart"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:207
+msgid "easeInQuint"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:208
+msgid "easeOutQuint"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:209
+msgid "easeInOutQuint"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:210
+msgid "easeInExpo"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:211
+msgid "easeOutExpo"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:212
+msgid "easeInOutExpo"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:213
+msgid "easeInSine"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:214
+msgid "easeOutSine"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:215
+msgid "easeInOutSine"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:216
+msgid "easeInCirc"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:217
+msgid "easeOutCirc"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:218
+msgid "easeInOutCirc"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:220
+msgid "easeInElastic"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:221
+msgid "easeOutElastic"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:222
+msgid "easeInOutElastic"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:223
+msgid "easeInBack"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:224
+msgid "easeOutBack"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:225
+msgid "easeInOutBack"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:226
+msgid "easeInBounce"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:227
+msgid "easeOutBounce"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:228
+msgid "easeInOutBounce"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:240
+msgid "Animation delay"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:241
+msgid "Animation delay time in millisecond."
+msgstr ""
+
+#: functions-accordions-meta-hook.php:244
+msgid "500"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:252
+msgid "Display expand/collapse all button."
+msgstr ""
+
+#: functions-accordions-meta-hook.php:253
+msgid "This is useful to expand/collapse al together."
+msgstr ""
+
+#: functions-accordions-meta-hook.php:269
+msgid "Expand/collapse all button background color"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:270
+msgid "Set custom background color for expand/collapse all button"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:282
+msgid "Expand/collapse all text"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:283
+msgid ""
+"Set custom background text for expand/collapse all button, use | to separate"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:323
+msgid "Vertical tabs"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:324
+msgid "To display vertical tabs."
+msgstr ""
+
+#: functions-accordions-meta-hook.php:339
+msgid "Vertical tabs nav width ratio"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:340
+msgid "Width ratio between nav and content."
+msgstr ""
+
+#: functions-accordions-meta-hook.php:353
+msgid "Navs icon toggle"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:354
+msgid "Enable toggling navs icons"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:402
+msgid "General style"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:403
+msgid "Some general style options"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:410
+msgid "Enable click track on header."
+msgstr ""
+
+#: functions-accordions-meta-hook.php:411
+msgid "Tracking user interest where users clicked"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:477
+msgid "Stats for accordion"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:478
+msgid "You will see click count on accordion headers."
+msgstr ""
+
+#: functions-accordions-meta-hook.php:509
+msgid "Toggled text"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:510
+msgid "Write toggled text."
+msgstr ""
+
+#: functions-accordions-meta-hook.php:519
+msgid "Active icon"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:520
+msgid "Set active icon for this section."
+msgstr ""
+
+#: functions-accordions-meta-hook.php:529
+msgid "Inactive icon"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:530
+msgid "Set inactive icon for this section"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:539
+msgid "Header background color"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:540
+msgid "Set background color for this section header"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:550
+msgid "Header background image"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:551
+msgid "Set background image for this section header"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:560
+msgid "Is active"
+msgstr ""
+
+#: functions-accordions-meta-hook.php:561
+msgid "Make this accordion active/open on page load."
+msgstr ""
+
+#: functions-settings-hook.php:14
+#, php-format
+msgid "%s License"
+msgstr ""
+
+#: functions-settings-hook.php:44
+msgid "Activate license"
+msgstr ""
+
+#: functions-settings-hook.php:45
+msgid "Activate license to get automatic update."
+msgstr ""
+
+#: functions-settings-hook.php:57
+msgid "License key"
+msgstr ""
+
+#: functions-settings-hook.php:58
+msgid ""
+"Write your license key here, to get license key please visit <a href="
+"\"https://www.pickplugins.com/my-account/license-keys/\">https://www."
+"pickplugins.com/my-account/license-keys/</a>"
+msgstr ""
+
+#: functions-settings-hook.php:93
+msgid "License status"
+msgstr ""

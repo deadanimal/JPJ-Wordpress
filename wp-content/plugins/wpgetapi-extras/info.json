@@ -1,0 +1,21 @@
+{
+	"name" : "WPGetAPI Pro",
+	"slug" : "wpgetapi-extras",
+	"author" : "<a href='https://wpgetapi.com'>WPGetAPI</a>",
+	"author_profile" : "http://profiles.wordpress.org/wpgetapi",
+	"download_url" : "https://wpgetapi.com/pro/wpgetapi-extras.zip",
+	"version" : "2.1.0",
+	"requires" : "4.6",
+	"tested" : "6.1",
+	"requires_php" : "5.6",
+	"last_updated" : "2022-01-20 00:00:01",
+	"sections" : {
+		"description" : "A Premium WordPress plugin to extend the free WPGetAPI plugin.",
+		"installation" : "Click the Install Update button and that's it.",
+		"changelog" : "<h4>2.1.0 (2021-01-20)</h4><ul><li>New - add a custom Contact Form 7 form-tag. This allows sending form data to your API.</li></ul><h4>2.0.0 (2021-01-13)</h4><ul><li>New - major update to licenses.</li></ul><h4>1.6.0 (2021-01-10)</h4><ul><li>Enhancement - better wrapping and class names when using the html format attribute in shortcode.</li></ul><h4>1.5.0 (2021-11-29)</h4><ul><li>New - introduce tokens. System, date, user and post tokens.</li></ul><h4>1.4.8 (2021-11-16)</h4><ul><li>Fix - make sure query_variables is not empty if trying to cache</li></ul><h4>1.4.7 (2021-08-19)</h4><ul><li>Fix - bypass XML when set to debug</li></ul><h4>1.4.6 (2021-08-02)</h4><ul><li>Enhancement - add caching for dynamic query_variables</li><li>Fix - issue with looping update calls back to wpgetapi.com</li></ul><h4>1.4.5 (2021-07-06)</h4><ul><li>Enhancement - add new option within 'format' to allow HTML formatting of output</li></ul><h4>1.4.4 (2021-05-24)</h4><ul><li>Enhancement - add new attribute 'format' within shortcode that allows formatting of a number</li></ul><h4>1.4.3 (2021-05-13)</h4><ul><li>Enhancement - add option to base64 encode in the headers</li></ul><h4>1.4.2 (2021-05-12)</h4><ul><li>Fix - set cache option to true to allow caching of the update call</li></ul><h4>1.4.1 (2021-03-18)</h4><ul><li>Enhancement - add the option to use body variables</li></ul><h4>1.4.0 (2022-03-17)</h4><ul><li>Enhancement - add the option to use header variables</li></ul><h4>1.3.1 (2022-02-17)</h4><ul><li>Fix - cache time defaulting to 30 instead of 0</li></ul><h4>1.3.0 (2022-02-08)</h4><ul><li>Enhancement - add one-click update from within WordPress admin</li><li>Fix - breaking change to follow proper naming conventions within main plugin</li></ul><h4>1.2.0 (2021-12-14)</h4><ul><li>Enhancement - add the option to use query_variables within shortcodes</li></ul><h4>1.1.0 (2021-11-09)</h4><ul><li>Enhancement - add the option to use endpoint_variables</li></ul><h4>1.0.1 (2021-11-02)</h4><ul><li>Bug fixes</li></ul><h4>1.0.0 (2021-10-27)</h4><ul><li>Initial Release</li></ul>"
+	},
+	"banners" : {
+		"low" : "https://wpgetapi.com/wp-content/uploads/edd/2021/11/pro-plugin-banner.jpg",
+		"high" : "https://wpgetapi.com/wp-content/uploads/edd/2021/11/pro-plugin-banner.jpg"
+	}
+}

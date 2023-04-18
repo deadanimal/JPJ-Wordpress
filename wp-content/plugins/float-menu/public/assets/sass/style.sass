@@ -1,0 +1,472 @@
+@charset "utf-8"
+
+.floating-menu
+  --fm-icon-size: 24px
+  --fm-label-size: 15px
+  --fm-label-font: inherit
+  --fm-label-font-style: normal
+  --fm-label-weight: normal
+  --fm-border-radius: 50%
+  --fm-color: #E86E2C
+  --fm-hover-color: #E86E2C
+  --fm-background: #1b094f
+  --fm-hover-background: #1b094f
+  --fm-z-index: 9999
+  --fm-text-font: inherit
+  --fm-text-size: 16px
+  --fm-text-weight: normal
+
+  visibility: hidden
+  z-index: var(--fm-z-index)
+
+  &.fm-ready
+    visibility: visible
+  /* Resets */
+  a
+    cursor: pointer
+    text-decoration: none
+  ul
+    list-style-type: none
+    margin: 0
+    padding: 0
+
+  @media print
+    display: none
+
+
+
+/* BAR */
+.fm-bar
+  position: fixed
+  z-index: 10100
+  li
+    list-style: none
+    > .fm-icon,
+    > .fm-mask a .fm-icon,
+    > .fm-mask .fm-link .fm-icon,
+    > .fm-mask a .fm-label,
+    > .fm-mask .fm-link .fm-label,
+    > a .fm-icon,
+    > .fm-link .fm-icon,
+    > a .fm-icon,
+    > .fm-link .fm-icon,
+    > a .fm-label,
+    > .fm-link .fm-label
+      color: var(--fm-color)
+      background-color: var(--fm-background)
+      & [class*="fa-"]
+        color: var(--fm-color)
+        background-color: var(--fm-background)
+
+    .fm-link
+      cursor: pointer
+
+    &:hover
+      z-index: 1001 !important
+      > .fm-icon,
+      > .fm-mask a .fm-icon,
+      > .fm-mask a .fm-label,
+      > a .fm-icon,
+      > a .fm-label,
+      > .fm-mask .fm-link .fm-icon,
+      > .fm-mask .fm-link .fm-label,
+      > .fm-link .fm-icon,
+      > .fm-link .fm-label
+        color: var(--fm-hover-color)
+        background-color: var(--fm-hover-background)
+        z-index: 12
+        & [class*="fa-"]
+          color: var(--fm-hover-color)
+          background-color: var(--fm-hover-background)
+      > .fm-icon,
+      > a .fm-icon,
+      > .fm-mask a .fm-icon,
+      > .fm-link .fm-icon,
+      > .fm-mask .fm-link .fm-icon
+        z-index: 13 !important
+
+
+  .fm-link,
+  a
+    width: calc(var(--fm-icon-size) * 2 )
+    display: block
+    position: relative
+    text-decoration: none
+  &.fm-right a,
+  &.fm-right .fm-link
+    position: absolute
+    right: 0
+  &.fm-button-space li:not(:last-child)
+    margin-bottom: 2px
+  &.fm-right li
+    height: calc(var(--fm-icon-size) * 2 )
+  &.fm-side-space
+    margin: 2px
+
+.fm-round
+  &.fm-side-space
+    margin-left: 3px
+  li
+    border-radius: calc((var(--fm-icon-size) * 2 )/2)
+  &.fm-button-space
+    li:not(:last-child)
+      margin-bottom: 3px
+    .fm-space
+      margin-top: 7px
+  .fm-mask,
+  .fm-link,
+  a,
+  .fm-icon
+    border-radius: calc((var(--fm-icon-size) * 2 )/2)
+  .fm-label
+    border-radius: calc((var(--fm-icon-size) * 2 )/2)
+    padding: 0 12px
+  .fm-hit
+    width: calc(var(--fm-icon-size) * 2 )
+    left: calc(var(--fm-icon-size) * 2 )
+  &.fm-label-space .fm-hit
+    width: calc(var(--fm-icon-size) * 2 - 4px)
+  .fm-sub.fm-sub-space > ul
+    margin-top: 3px
+  .fm-sub.fm-side.fm-sub-space > ul
+    margin: 0 3px
+  .fm-panel
+    border-radius: 5px
+  .fm-head
+    border-radius: 5px 5px 0 0
+
+.fm-connected .fm-label
+  right: auto
+  left: 0
+
+.fm-rounded
+  &.fm-side-space
+    margin-left: 3px
+  li,
+  li img
+    border-radius: 5px
+  &.fm-button-space li:not(:last-child)
+    margin-bottom: 3px
+  &.fm-button-space .fm-space
+    margin-top: 7px
+  .fm-mask
+    border-radius: 5px
+    img
+      border-radius: 5px
+  .fm-link,
+  a,
+  .fm-icon,
+  .fm-label
+    border-radius: 5px
+  .fm-label
+    padding: 0 11px
+  .fm-hit
+    width: 10px
+    left: calc(var(--fm-icon-size) * 2 - 5px )
+  &.fm-label-space .fm-hit
+    width: 12px
+  .fm-sub.fm-sub-space > ul
+    margin-top: 3px
+  .fm-rounded .fm-sub.fm-side.fm-sub-space > ul
+    margin: 0 3px
+
+.fm-rounded-out
+  li, img, a, .fm-link, .fm-icon, .fm-label
+    border-radius: 0 5px 5px 0
+  .fm-label
+    padding: 0 11px
+    left: calc(var(--fm-icon-size) * 2 - 5px )
+  .fm-hit
+    width: 10px
+    left: calc(var(--fm-icon-size) * 2 - 5px )
+  &.fm-label-space .fm-hit
+    width: 12px
+  &.fm-connected .fm-label
+    left: 0
+
+
+.fm-right
+  .fm-mask
+    position: absolute
+    right: 0
+    height: calc(var(--fm-icon-size) * 2 )
+  .fm-icon
+    position: absolute
+    right: 0
+  &.fm-rounded-out a,
+  &.fm-rounded-out .fm-link,
+  &.fm-rounded-out .fm-icon
+    border-radius: 5px 0 0 5px
+  .fm-label
+    padding: 0 8px 0 11px
+    right: calc(var(--fm-icon-size) * 2 )
+    left: auto
+  &.fm-label-space .fm-label
+    margin-right: 2px
+    margin-left: 0
+  &.fm-connected .fm-label
+    right: 0
+    left: auto
+    padding-left: var(--fm-icon-size) !important
+  &.fm-label-space .fm-hit
+    right: calc(var(--fm-icon-size) * 2 )
+    left: auto
+  &.fm-round .fm-hit
+    right: calc(var(--fm-icon-size) * 2 )
+    left: auto
+  &.fm-rounded .fm-hit
+    right: calc(var(--fm-icon-size) * 2 - 5px )
+    left: auto
+  &.fm-rounded-out .fm-hit
+    right: calc(var(--fm-icon-size) * 2 - 5px )
+    left: auto
+  &.fm-rounded-out
+    .fm-label
+      border-radius: 5px 0 0 5px
+      right: calc(var(--fm-icon-size) * 2 - 5px )
+  .fm-sub.fm-side > ul
+    right: calc(var(--fm-icon-size) * 2 )
+    left: auto
+  .fm-sub.fm-circular > ul
+    right: 0
+    left: auto
+  .fm-subhit
+    right: 0
+    left: auto
+
+
+.fm-space
+  margin-top: 4px
+
+.fm-button-space
+  .fm-space
+    margin-top: 6px
+
+.fm-mask
+  position: relative
+  overflow: hidden
+  &.fm-off
+    overflow: visible
+
+.fm-icon
+  min-width: calc(var(--fm-icon-size) * 2 )
+  height: calc(var(--fm-icon-size) * 2 )
+  line-height: calc(var(--fm-icon-size) * 2 )
+  position: relative
+  z-index: 11
+  display: inline-block
+  vertical-align: middle
+  text-align: center
+  background-repeat: no-repeat
+  font-size: var(--fm-icon-size)
+  transition: background-color 100ms linear
+
+  > img
+    position: absolute
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    margin: auto
+  .fa
+    line-height: calc(var(--fm-icon-size) * 2 ) !important
+
+.fm-label
+  font-family: var(--fm-label-font)
+  font-style: var(--fm-label-font-style)
+  font-weight: var(--fm-label-weight)
+  font-size: var(--fm-label-size)
+  min-height: calc(var(--fm-icon-size) * 2 )
+  line-height: calc(var(--fm-icon-size) * 2 )
+  padding: 0 11px 0 8px
+  position: absolute
+  top: 0
+  z-index: 10
+  display: none
+  box-sizing: border-box
+  white-space: nowrap
+  width: max-content
+
+
+  .fm-extra-text
+    width: max-content
+    font-family: var(--fm-text-font)
+    font-size: var(--fm-text-size)
+    font-weight: var(--fm-text-weight)
+    font-style: normal
+    line-height: 1.2
+    padding-bottom: 12px
+
+.fm-label-space .fm-label
+  margin-left: 2px
+
+.fm-label-space
+  &.fm-label
+    margin-left: 2px
+  .fm-hit
+    width: 2px
+    left: calc(var(--fm-icon-size) * 2 )
+
+
+.fm-hit
+  height: 100%
+  position: absolute
+  left: 0
+  top: 0
+  display: none
+
+.fm-label-space
+  .fm-hit
+    width: 2px
+    left: calc(var(--fm-icon-size) * 2 )
+
+/* SUB */
+.fm-sub
+  cursor: pointer
+  > .fm-icon
+    position: relative
+    z-index: 1000
+  > ul
+    width: calc(var(--fm-icon-size) * 2 )
+    position: absolute
+    left: 0
+    top: calc(var(--fm-icon-size) * 2 )
+  &.fm-side > ul
+    position: absolute
+    left: calc(var(--fm-icon-size) * 2 )
+    top: 0
+  &.fm-circular > ul
+    position: absolute
+    left: 0
+    top: 0
+    width: auto
+  &.fm-sub-space > ul
+    margin-top: 2px
+  &.fm-side.fm-sub-space > ul
+    margin: 0 2px
+  &.fm-posabs > ul > li
+    position: absolute
+
+/* Sub hit */
+.fm-subhit
+  position: absolute
+  display: none
+  left: 0
+  top: 0
+
+
+/* WINDOW */
+.fm-window
+  position: fixed
+  left: 0
+  top: 0
+  width: 100%
+  height: 100%
+  z-index: 10101
+  display: none
+
+.fm-shadow
+  background-color: #2f2f2f
+  opacity: 0.3
+  width: 100%
+  height: 100%
+
+
+/* Panel */
+.fm-panel
+  background-color: #f0f0f0
+  padding: 1px
+  width: 100%
+  max-width: 500px
+  min-width: 300px
+  position: absolute
+  display: none
+  &.fm-show
+    display: block
+
+.fm-winshadow .fm-panel
+  box-shadow: 0 0 2px 1px rgba(47, 47, 47, 0.2)
+
+
+/* Head */
+.fm-head
+  padding: 18px 17px
+
+
+.fm-title
+  color: #ffffff
+  font-size: 22px
+  display: inline
+
+.fm-close
+  float: right
+  cursor: pointer
+  color: #fff
+  font-size: 20px
+  position: relative
+  top: -20px
+  right: -10px
+
+#fm-popup .fm-head
+  background-color: #33AAFF
+
+
+.fm-black .fm-head
+  background-color: #2a2a2a !important
+
+.fm-blue .fm-head
+  background-color: #4090FF !important
+
+.fm-red .fm-head
+  background-color: #F23D3D !important
+
+.fm-yellow .fm-head
+  background-color: #FFBD22 !important
+
+/* Body */
+.fm-body
+  font-size: 15px
+  padding: 15px
+  color: #707070
+  content: ""
+  display: table
+  clear: both
+  p
+    margin: 0
+    line-height: 1.125
+  p + p
+    margin-top: 12px
+
+/* GLOBAL */
+.fm-show
+  display: block !important
+//align-items: center
+
+
+.fm-hide
+  display: none !important
+
+.fm-clearfix:after
+  content: ""
+  display: table
+  clear: both
+
+.fm-hold-open
+  display: block !important
+
+.fm-icon-text
+  padding: 0 10px
+  width: max-content !important
+  span img
+    margin: 0 !important
+    vertical-align: middle
+
+.fm-search
+  .fm-input
+    box-sizing: border-box
+    max-height: calc(var(--fm-icon-size) * 2 )
+    &::-webkit-search-decoration,
+    &::-webkit-search-cancel-button,
+    &::-webkit-search-results-button,
+    &::-webkit-search-results-decoration
+      display: none

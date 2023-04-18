@@ -1,0 +1,915 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Captcha for Contact Form 7\n"
+"POT-Creation-Date: 2023-02-16 11:21+0100\n"
+"PO-Revision-Date: 2023-02-16 11:16+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: CF7Captcha.class.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: compatibility/avada/AvadaIPLog.class.php:30
+msgid "Avada Form - IP Log"
+msgstr ""
+
+#: compatibility/avada/AvadaMultipleSubmissionProtection.class.php:43
+#: compatibility/avada/AvadaMultipleSubmissionProtection.class.php:60
+msgid "Avada Form - Multiple Submission Protection"
+msgstr ""
+
+#: compatibility/avada/AvadaRuleValidator.class.php:59
+#: compatibility/avada/AvadaRuleValidator.class.php:91
+#: compatibility/cf7/CF7RuleValidator.class.php:58
+#: compatibility/comments/CommentRuleValidator.class.php:48
+#: compatibility/elementor/ElementorRuleValidator.class.php:53
+msgid "Rule Validation failed"
+msgstr ""
+
+#: compatibility/avada/AvadaValidator.class.php:76
+#: compatibility/avada/AvadaValidator.class.php:141
+#: compatibility/avada/AvadaValidator.class.php:172
+msgid "Avada Form - Captcha Validator"
+msgstr ""
+
+#: compatibility/avada/TimerValidatorAvada.class.php:66
+#: compatibility/comments/TimerValidatorComments.class.php:67
+msgid "Avada Form - Timer Validator"
+msgstr ""
+
+#: compatibility/cf7/Backend.class.php:35
+msgid "Generate a captcha to stop spam."
+msgstr ""
+
+#: compatibility/cf7/Backend.class.php:45
+msgid "Name"
+msgstr ""
+
+#: compatibility/cf7/Backend.class.php:50
+msgid "Captcha Method"
+msgstr ""
+
+#: compatibility/cf7/Backend.class.php:53
+msgid "Image Captcha"
+msgstr ""
+
+#: compatibility/cf7/Backend.class.php:54
+msgid "Arithmetical Captcha."
+msgstr ""
+
+#: compatibility/cf7/Backend.class.php:55
+msgid "Honeypot Captcha."
+msgstr ""
+
+#: compatibility/cf7/Backend.class.php:61
+msgid "Id attribute"
+msgstr ""
+
+#: compatibility/cf7/Backend.class.php:67
+msgid "Class attribute"
+msgstr ""
+
+#: compatibility/cf7/Backend.class.php:80
+msgid "Insert Tag"
+msgstr ""
+
+#: compatibility/cf7/Backend.class.php:94
+#: compatibility/cf7/Frontend.class.php:124
+#: core/CaptchaImageGenerator.class.php:74
+#: core/CaptchaMathGenerator.class.php:113
+msgid "Captcha"
+msgstr ""
+
+#: compatibility/cf7/CF7HoneypotCaptcha.class.php:80
+#: compatibility/cf7/CF7HoneypotCaptcha.class.php:106
+msgid "CF7 Form - Validator"
+msgstr ""
+
+#: compatibility/cf7/CF7IPLog.class.php:67
+msgid "CF7 Form - IP Log"
+msgstr ""
+
+#: compatibility/cf7/ControllerCF7.class.php:73
+msgid "CF7 Form"
+msgstr ""
+
+#: compatibility/cf7/Frontend.class.php:46
+#: compatibility/ultimatemember/LoginCaptcha.class.php:140
+#: compatibility/ultimatemember/RegistrationCaptcha.class.php:137
+msgid "Captcha not valid"
+msgstr ""
+
+#: compatibility/cf7/Frontend.class.php:48
+msgid "Spam"
+msgstr ""
+
+#: compatibility/cf7/MultipleSubmissionProtection.class.php:59
+msgid "CF7 Form - Multiple Submission Protection"
+msgstr ""
+
+#: compatibility/cf7/TimerValidatorCF7.class.php:43
+msgid "CF7 Form - Timer Validator"
+msgstr ""
+
+#: compatibility/cf7/cf7-notice-dependencies.php:11
+msgid "Contact Form 7 missing or outdated"
+msgstr ""
+
+#: compatibility/cf7/cf7-notice-dependencies.php:13
+msgid ""
+"Contact Form 7 plugin must be activated for Captcha for Contact Form 7 to "
+"work. Please activate Contact Form 7"
+msgstr ""
+
+#: compatibility/comments/CommentIPLog.class.php:31
+msgid "IP Log failed"
+msgstr ""
+
+#: compatibility/comments/CommentIPLog.class.php:37
+#: compatibility/comments/CommentValidator.class.php:99
+#: compatibility/comments/CommentValidator.class.php:122
+msgid "Error: Spam"
+msgstr ""
+
+#: compatibility/comments/CommentRuleValidator.class.php:54
+msgid "Error: Spam detected. "
+msgstr ""
+
+#: compatibility/comments/CommentValidator.class.php:37
+#: compatibility/comments/CommentValidator.class.php:119
+msgid "Comment"
+msgstr ""
+
+#: compatibility/comments/CommentValidator.class.php:37
+msgid "Comment successfully committed"
+msgstr ""
+
+#: compatibility/comments/CommentValidator.class.php:93
+msgid "Comment Form - Validator"
+msgstr ""
+
+#: compatibility/comments/TimerValidatorComments.class.php:43
+msgid "Spam detected. Please try again or contact the site administrator"
+msgstr ""
+
+#: compatibility/elementor/ElementorCaptcha.class.php:121
+#: compatibility/elementor/ElementorValidator.class.php:84
+msgid "Elementor Form - Captcha Validator"
+msgstr ""
+
+#: compatibility/elementor/ElementorCaptcha.class.php:127
+#: compatibility/woocommerce/login/Validator.class.php:111
+#: compatibility/woocommerce/registration/Validator.class.php:113
+msgid "Captcha not correct."
+msgstr ""
+
+#: compatibility/elementor/ElementorIPLog.class.php:50
+msgid "Elementor Form - IP Log"
+msgstr ""
+
+#: compatibility/elementor/ElementorIPLog.class.php:56
+msgid "Your IP has been blocked, please try again later."
+msgstr ""
+
+#: compatibility/elementor/ElementorMultipleSubmissionProtection.class.php:93
+#: compatibility/elementor/ElementorMultipleSubmissionProtection.class.php:110
+#: compatibility/elementor/TimerValidatorElementor.class.php:90
+msgid "Elementor Form - Timer Validator"
+msgstr ""
+
+#: compatibility/elementor/ElementorMultipleSubmissionProtection.class.php:99
+#: compatibility/elementor/ElementorMultipleSubmissionProtection.class.php:116
+#: compatibility/elementor/ElementorValidator.class.php:90
+#: compatibility/elementor/TimerValidatorElementor.class.php:96
+msgid "Spam detected."
+msgstr ""
+
+#: compatibility/login/LoginValidator.class.php:110
+msgid "WordPress Login - Validator"
+msgstr ""
+
+#: compatibility/registration/Validator.class.php:86
+#: compatibility/registration/Validator.class.php:116
+msgid "<strong>Error:</strong> Please enter the captcha."
+msgstr ""
+
+#: compatibility/registration/Validator.class.php:110
+msgid "WordPress Registration - Validator"
+msgstr ""
+
+#: compatibility/ultimatemember/LoginCaptcha.class.php:50
+#: compatibility/ultimatemember/LoginCaptcha.class.php:81
+#: compatibility/ultimatemember/RegistrationCaptcha.class.php:50
+#: compatibility/ultimatemember/RegistrationCaptcha.class.php:81
+msgid "This field is required"
+msgstr ""
+
+#: compatibility/ultimatemember/LoginCaptcha.class.php:57
+#: compatibility/ultimatemember/LoginCaptcha.class.php:88
+#: compatibility/ultimatemember/RegistrationCaptcha.class.php:57
+msgid "LoginCaptcha - Validator"
+msgstr ""
+
+#: compatibility/ultimatemember/RegistrationCaptcha.class.php:88
+msgid "RegistrationCaptcha - Validator"
+msgstr ""
+
+#: compatibility/woocommerce/login/Validator.class.php:81
+#: compatibility/woocommerce/registration/Validator.class.php:82
+msgid "Please enter the captcha."
+msgstr ""
+
+#: compatibility/woocommerce/login/Validator.class.php:105
+msgid "WooCommerce Login - Validator"
+msgstr ""
+
+#: compatibility/woocommerce/registration/Validator.class.php:107
+msgid "WooCommerce Registration - Validator"
+msgstr ""
+
+#: core/CaptchaImageGenerator.class.php:67
+msgid "Captcha:"
+msgstr ""
+
+#: core/RulesHandler.class.php:70
+#, php-format
+msgid "The word %s is blacklisted. Please remove it to continue."
+msgstr ""
+
+#: core/RulesHandler.class.php:91
+#, php-format
+msgid "The Limit %d for BBCode has been reached. Remove the %s to continue."
+msgstr ""
+
+#: core/RulesHandler.class.php:115
+#, php-format
+msgid "The Limit %d for URLs has been reached. Remove the %s to continue."
+msgstr ""
+
+#: core/TimerValidatorController.class.php:112
+#, php-format
+msgid ""
+"Form was filled in %d milliseconds. This was lower than your defined value "
+"of %d milliseconds. If this is a false positive try to adjust the default "
+"value."
+msgstr ""
+
+#: core/UIPage.class.php:122
+msgid "Settings updated"
+msgstr ""
+
+#: core/UIPage.class.php:162
+msgid "Save"
+msgstr ""
+
+#: core/log/Log_WordPress_PostType.class.php:22
+msgctxt "Post type general name"
+msgid "Captcha Log"
+msgstr ""
+
+#: core/log/Log_WordPress_PostType.class.php:23
+msgctxt "Post type singular name"
+msgid "Captcha Log"
+msgstr ""
+
+#: core/log/Log_WordPress_PostType.class.php:24
+msgctxt "Admin Menu text"
+msgid "Captcha Log"
+msgstr ""
+
+#: core/log/Log_WordPress_PostType.class.php:25
+msgctxt "Add New on Toolbar"
+msgid "Captcha Log"
+msgstr ""
+
+#: core/log/Log_WordPress_PostType.class.php:26
+msgid "Edit"
+msgstr ""
+
+#: core/log/Log_WordPress_PostType.class.php:27
+msgid "View"
+msgstr ""
+
+#: core/log/Log_WordPress_Taxonomy_log_status.class.php:22
+msgctxt "Post type general name"
+msgid "Status"
+msgstr ""
+
+#: core/log/Log_WordPress_Taxonomy_log_status.class.php:23
+msgctxt "Post type singular name"
+msgid "Status"
+msgstr ""
+
+#: core/log/Log_WordPress_Taxonomy_log_status.class.php:24
+msgctxt "Admin Menu text"
+msgid "Status"
+msgstr ""
+
+#: ui/UIAvada.class.php:65
+msgid "Avada Forms"
+msgstr ""
+
+#: ui/UIAvada.class.php:71 ui/UICF7.class.php:87 ui/UIComments.class.php:103
+#: ui/UIElementor.class.php:70 ui/UIUltimateMember.class.php:85
+#: ui/UIUltimateMember.class.php:174 ui/UIWoocommerce.class.php:84
+#: ui/UIWoocommerce.class.php:174 ui/UIWordpress.class.php:71
+#: ui/UIWordpress.class.php:161
+msgid "Captcha Settings"
+msgstr ""
+
+#: ui/UIAvada.class.php:75 ui/UIAvada.class.php:190 ui/UIAvada.class.php:245
+#: ui/UICF7.class.php:91 ui/UICF7.class.php:178 ui/UICF7.class.php:236
+#: ui/UIComments.class.php:107 ui/UIComments.class.php:190
+#: ui/UIElementor.class.php:74 ui/UIElementor.class.php:156
+#: ui/UIElementor.class.php:214 ui/UIFilterRules.class.php:58
+#: ui/UIFilterRules.class.php:114 ui/UIFilterRules.class.php:153
+#: ui/UIIPProtection.class.php:167 ui/UIIPProtection.class.php:245
+#: ui/UIUltimateMember.class.php:89 ui/UIUltimateMember.class.php:178
+#: ui/UIWoocommerce.class.php:88 ui/UIWoocommerce.class.php:178
+#: ui/UIWordpress.class.php:75 ui/UIWordpress.class.php:165
+msgid "Enable/Disable"
+msgstr ""
+
+#: ui/UIAvada.class.php:87
+msgid "Enable Spam Protection for Avada Forms"
+msgstr ""
+
+#: ui/UIAvada.class.php:94 ui/UICF7.class.php:114 ui/UIComments.class.php:126
+#: ui/UIDashboard.class.php:487 ui/UIElementor.class.php:94
+#: ui/UIUltimateMember.class.php:109 ui/UIUltimateMember.class.php:198
+#: ui/UIWoocommerce.class.php:108 ui/UIWoocommerce.class.php:198
+#: ui/UIWordpress.class.php:95 ui/UIWordpress.class.php:185
+msgid "Protection Method"
+msgstr ""
+
+#: ui/UIAvada.class.php:106 ui/UICF7.class.php:126 ui/UIComments.class.php:138
+#: ui/UIDashboard.class.php:499 ui/UIElementor.class.php:106
+#: ui/UIUltimateMember.class.php:121 ui/UIUltimateMember.class.php:210
+#: ui/UIWoocommerce.class.php:120 ui/UIWoocommerce.class.php:210
+#: ui/UIWordpress.class.php:107 ui/UIWordpress.class.php:197
+msgid "Honeypot"
+msgstr ""
+
+#: ui/UIAvada.class.php:117 ui/UICF7.class.php:137 ui/UIComments.class.php:149
+#: ui/UIDashboard.class.php:510 ui/UIElementor.class.php:117
+#: ui/UIUltimateMember.class.php:132 ui/UIUltimateMember.class.php:221
+#: ui/UIWoocommerce.class.php:131 ui/UIWoocommerce.class.php:221
+#: ui/UIWordpress.class.php:118 ui/UIWordpress.class.php:208
+msgid "Arithmetic"
+msgstr ""
+
+#: ui/UIAvada.class.php:128 ui/UICF7.class.php:148 ui/UIComments.class.php:160
+#: ui/UIDashboard.class.php:521 ui/UIElementor.class.php:128
+#: ui/UIUltimateMember.class.php:143 ui/UIUltimateMember.class.php:232
+#: ui/UIWoocommerce.class.php:142 ui/UIWoocommerce.class.php:232
+#: ui/UIWordpress.class.php:129 ui/UIWordpress.class.php:219
+msgid "Image"
+msgstr ""
+
+#: ui/UIAvada.class.php:135
+msgid "Position"
+msgstr ""
+
+#: ui/UIAvada.class.php:147
+msgid "After Submit Button"
+msgstr ""
+
+#: ui/UIAvada.class.php:158
+msgid "Before Submit Button (Beta)"
+msgstr ""
+
+#: ui/UIAvada.class.php:165 ui/UIAvada.class.php:223 ui/UICF7.class.php:155
+#: ui/UICF7.class.php:213 ui/UIComments.class.php:167
+#: ui/UIComments.class.php:226 ui/UIElementor.class.php:134
+#: ui/UIElementor.class.php:191 ui/UIUltimateMember.class.php:150
+#: ui/UIUltimateMember.class.php:239 ui/UIWoocommerce.class.php:149
+#: ui/UIWoocommerce.class.php:240 ui/UIWordpress.class.php:136
+#: ui/UIWordpress.class.php:226
+msgid "Fieldname"
+msgstr ""
+
+#: ui/UIAvada.class.php:177 ui/UICF7.class.php:166 ui/UIComments.class.php:178
+#: ui/UIElementor.class.php:145 ui/UIUltimateMember.class.php:161
+#: ui/UIUltimateMember.class.php:250 ui/UIWoocommerce.class.php:160
+#: ui/UIWoocommerce.class.php:251 ui/UIWordpress.class.php:147
+#: ui/UIWordpress.class.php:237
+msgid ""
+"Enter a unique name for the Captcha field. This makes it harder for bots to "
+"recognize the honeypot."
+msgstr ""
+
+#: ui/UIAvada.class.php:186 ui/UICF7.class.php:174 ui/UIComments.class.php:186
+#: ui/UIElementor.class.php:152
+msgid "Time Based Protection"
+msgstr ""
+
+#: ui/UIAvada.class.php:202 ui/UICF7.class.php:190 ui/UIComments.class.php:71
+#: ui/UIComments.class.php:202 ui/UIElementor.class.php:168
+msgid "Enable to track the time from entering till submitting the form."
+msgstr ""
+
+#: ui/UIAvada.class.php:207 ui/UICF7.class.php:196 ui/UIComments.class.php:75
+#: ui/UIComments.class.php:209 ui/UIElementor.class.php:174
+msgid "Time in Milliseconds"
+msgstr ""
+
+#: ui/UIAvada.class.php:218 ui/UICF7.class.php:207 ui/UIComments.class.php:83
+#: ui/UIComments.class.php:220 ui/UIElementor.class.php:185
+msgid ""
+"Enter the Time in Milliseconds to determine if the user is a bot (e.g. enter "
+"1000 for 1 second)."
+msgstr ""
+
+#: ui/UIAvada.class.php:235 ui/UICF7.class.php:224 ui/UIComments.class.php:238
+#: ui/UIElementor.class.php:202
+msgid ""
+"Enter a unique name for the Timer field. This makes it harder for bots to "
+"recognize the honeypot."
+msgstr ""
+
+#: ui/UIAvada.class.php:241 ui/UICF7.class.php:232 ui/UIElementor.class.php:210
+msgid "Multiple Submission Protection"
+msgstr ""
+
+#: ui/UIAvada.class.php:257 ui/UICF7.class.php:248 ui/UIElementor.class.php:226
+msgid "Enable to prevent forms from being submitted multiple times."
+msgstr ""
+
+#: ui/UICF7.class.php:82
+msgid "Contact Form 7"
+msgstr ""
+
+#: ui/UICF7.class.php:103
+msgid "Enable the Captcha for every Contact Form 7 available on this system."
+msgstr ""
+
+#: ui/UICF7.class.php:106
+msgid ""
+"You can also enable the protection for each formular individually within the "
+"form settings."
+msgstr ""
+
+#: ui/UICaptcha.class.php:30
+msgid "Captchas"
+msgstr ""
+
+#: ui/UICaptcha.class.php:35
+msgid "Delete Database Captcha Entries"
+msgstr ""
+
+#: ui/UICaptcha.class.php:38
+msgid ""
+"This entries will be deleted using a WP Cronjob. If you want to reset it "
+"manually, use the buttons below."
+msgstr ""
+
+#: ui/UICaptcha.class.php:41 ui/UICaptchaTimerProtection.class.php:39
+#: ui/UIIPProtection.class.php:115 ui/UIIPProtection.class.php:148
+msgid "Entries:"
+msgstr ""
+
+#: ui/UICaptcha.class.php:42 ui/UICaptcha.class.php:46
+#: ui/UICaptcha.class.php:50 ui/UICaptchaTimerProtection.class.php:40
+#: ui/UIIPProtection.class.php:116 ui/UIIPProtection.class.php:149
+#, php-format
+msgid "%s entries in the database"
+msgstr ""
+
+#: ui/UICaptcha.class.php:45
+msgid "Validated:"
+msgstr ""
+
+#: ui/UICaptcha.class.php:49
+msgid "Non-Validated:"
+msgstr ""
+
+#: ui/UICaptcha.class.php:53 ui/UICaptchaTimerProtection.class.php:43
+#: ui/UIIPProtection.class.php:119 ui/UIIPProtection.class.php:152
+msgid "Delete All"
+msgstr ""
+
+#: ui/UICaptcha.class.php:55
+msgid "Delete Validated"
+msgstr ""
+
+#: ui/UICaptcha.class.php:57
+msgid "Deleted Non-Validated"
+msgstr ""
+
+#: ui/UICaptcha.class.php:59 ui/UICaptchaTimerProtection.class.php:45
+#: ui/UIIPProtection.class.php:121 ui/UIIPProtection.class.php:154
+msgid "Make sure to backup your database before clicking one of these buttons."
+msgstr ""
+
+#: ui/UICaptcha.class.php:93
+msgid "Captchas removed from database"
+msgstr ""
+
+#: ui/UICaptcha.class.php:95 ui/UICaptcha.class.php:102
+#: ui/UICaptcha.class.php:109 ui/UICaptchaTimerProtection.class.php:81
+#: ui/UIIPProtection.class.php:29 ui/UIIPProtection.class.php:41
+msgid ""
+"Something went wrong, please try again later or contact the plugin author."
+msgstr ""
+
+#: ui/UICaptcha.class.php:100
+msgid "Validated Captchas removed from database"
+msgstr ""
+
+#: ui/UICaptcha.class.php:107
+msgid "Non Validated Captchas removed from database"
+msgstr ""
+
+#: ui/UICaptchaTimerProtection.class.php:28
+msgid "Timers"
+msgstr ""
+
+#: ui/UICaptchaTimerProtection.class.php:33
+msgid "Delete Database Captcha Timer Entries"
+msgstr ""
+
+#: ui/UICaptchaTimerProtection.class.php:36 ui/UIIPProtection.class.php:145
+msgid ""
+"This entries will be deleted using a WP Cronjob. If you want to reset it "
+"manually, use the button below."
+msgstr ""
+
+#: ui/UICaptchaTimerProtection.class.php:79
+msgid "Timers removed from database"
+msgstr ""
+
+#: ui/UIComments.class.php:44
+msgid "Comments / Discussions"
+msgstr ""
+
+#: ui/UIComments.class.php:48
+msgid "Enable Captcha Protection"
+msgstr ""
+
+#: ui/UIComments.class.php:58
+msgid "Enable Spam Protection for WordPress Comments"
+msgstr ""
+
+#: ui/UIComments.class.php:62
+msgid "Enable Time Based Protection"
+msgstr ""
+
+#: ui/UIComments.class.php:98
+msgid "Comments"
+msgstr ""
+
+#: ui/UIComments.class.php:119
+msgid "Enable captcha protection."
+msgstr ""
+
+#: ui/UIDashboard.class.php:97 ui/UIDashboard.class.php:187
+#: ui/UIDashboard.class.php:277 ui/UIDashboard.class.php:367
+#: ui/UIFilterRules.class.php:100 ui/UIFilterRules.class.php:139
+#: ui/UIFilterRules.class.php:272
+#, php-format
+msgid "The Limit %d has been reached. Remove the %s to continue."
+msgstr ""
+
+#: ui/UIDashboard.class.php:98 ui/UIDashboard.class.php:188
+#: ui/UIDashboard.class.php:278 ui/UIDashboard.class.php:368
+#: ui/UIFilterRules.class.php:273
+msgid "BBCode is not allowed."
+msgstr ""
+
+#: ui/UIDashboard.class.php:99 ui/UIDashboard.class.php:189
+#: ui/UIDashboard.class.php:279 ui/UIDashboard.class.php:369
+#: ui/UIFilterRules.class.php:218 ui/UIFilterRules.class.php:274
+#, php-format
+msgid "The word %s is blacklisted."
+msgstr ""
+
+#: ui/UIDashboard.class.php:422
+msgid "General Settings"
+msgstr ""
+
+#: ui/UIDashboard.class.php:425
+msgid ""
+"Thanks for using Forge12 Spam Protection to protect your forms and logins "
+"with an GDPR ready captcha system. Use the settings below to configure your "
+"whole system at once, or enable the expert mode to customize each form to "
+"fit with your needs."
+msgstr ""
+
+#: ui/UIDashboard.class.php:431
+msgid "Protection Level"
+msgstr ""
+
+#: ui/UIDashboard.class.php:443
+msgid "High Security"
+msgstr ""
+
+#: ui/UIDashboard.class.php:443
+msgid ""
+"Enables captcha, IP Protection, Multiple Submission Protection, Filters, "
+"Blacklist and Time-Based Protection."
+msgstr ""
+
+#: ui/UIDashboard.class.php:455
+msgid "Medium Security"
+msgstr ""
+
+#: ui/UIDashboard.class.php:455
+msgid "Enables captcha, Filters, Blacklist and Multiple Submission Protection."
+msgstr ""
+
+#: ui/UIDashboard.class.php:468
+msgid "Minimum Security"
+msgstr ""
+
+#: ui/UIDashboard.class.php:468
+msgid "Enables captcha and Blacklist."
+msgstr ""
+
+#: ui/UIDashboard.class.php:480 ui/UIFilterRules.class.php:235
+msgid "Off"
+msgstr ""
+
+#: ui/UIDashboard.class.php:480
+msgid "Disable everything."
+msgstr ""
+
+#: ui/UIDashboard.class.php:526
+msgid ""
+"<strong>Warning:</strong> If you save this page, all customized settings "
+"will be overwritten."
+msgstr ""
+
+#: ui/UIDashboard.class.php:537
+msgid "Need help?"
+msgstr ""
+
+#: ui/UIDashboard.class.php:540
+#, php-format
+msgid "Take a look at our <a href='%s' target='_blank'>Documentation</a>."
+msgstr ""
+
+#: ui/UIDatabase.class.php:35
+msgid "Database"
+msgstr ""
+
+#: ui/UIElementor.class.php:65
+msgid "Elementor Forms"
+msgstr ""
+
+#: ui/UIElementor.class.php:87
+msgid "Enable Spam Protection for Elementor Forms"
+msgstr ""
+
+#: ui/UIFilterRules.class.php:46
+msgid "Filter Rules"
+msgstr ""
+
+#: ui/UIFilterRules.class.php:49
+msgid ""
+"These rules, if enabled, will be applied to all supported forms (Avada, "
+"Comments, Elementor, CF7, ...)."
+msgstr ""
+
+#: ui/UIFilterRules.class.php:54
+msgid "URL Filter"
+msgstr ""
+
+#: ui/UIFilterRules.class.php:70
+msgid ""
+"If enabled, all fields will be checked if there are any urls exceeding the "
+"followed limit."
+msgstr ""
+
+#: ui/UIFilterRules.class.php:77
+msgid "Limiter"
+msgstr ""
+
+#: ui/UIFilterRules.class.php:87
+msgid "Define how many links are allowed by one field."
+msgstr ""
+
+#: ui/UIFilterRules.class.php:93 ui/UIFilterRules.class.php:132
+#: ui/UIFilterRules.class.php:210 ui/UIFilterRules.class.php:214
+msgid "Error Message"
+msgstr ""
+
+#: ui/UIFilterRules.class.php:103 ui/UIFilterRules.class.php:142
+#: ui/UIFilterRules.class.php:221
+msgid "Define the error message displayed to the visitor."
+msgstr ""
+
+#: ui/UIFilterRules.class.php:110
+msgid "BB Code Filter"
+msgstr ""
+
+#: ui/UIFilterRules.class.php:126
+msgid "Filter [url={url}]{text}[/url]"
+msgstr ""
+
+#: ui/UIFilterRules.class.php:149 ui/UIFilterRules.class.php:192
+msgid "Blacklist"
+msgstr ""
+
+#: ui/UIFilterRules.class.php:165
+msgid "Enable the blacklist."
+msgstr ""
+
+#: ui/UIFilterRules.class.php:172
+msgid "Greedy/Ungreedy"
+msgstr ""
+
+#: ui/UIFilterRules.class.php:183
+msgid "Enable/Disable greedy filter."
+msgstr ""
+
+#: ui/UIFilterRules.class.php:185
+msgid ""
+" If the greedy filter is enabled, even parts of the word will causing the "
+"filter to trigger, e.g.: the word \"com\" is blacklisted and the greedy "
+"filter is enabled, this will cause \"forge12.com\", \"composite\" and "
+"\"compose\" to also trigger the error message."
+msgstr ""
+
+#: ui/UIFilterRules.class.php:201
+msgid "Define words that should be blacklisted."
+msgstr ""
+
+#: ui/UIFilterRules.class.php:204
+msgid "Load predefined Blacklist"
+msgstr ""
+
+#: ui/UIFilterRules.class.php:229
+msgid "Support Forge12 Captcha: "
+msgstr ""
+
+#: ui/UIFilterRules.class.php:234
+msgid "On"
+msgstr ""
+
+#: ui/UIFilterRules.class.php:238
+msgid "The Footer will contain a noscript referral to support Forge12 Captcha."
+msgstr ""
+
+#: ui/UIIPProtection.class.php:27
+msgid "IP Logs removed from database"
+msgstr ""
+
+#: ui/UIIPProtection.class.php:39
+msgid "IP Bans removed from database"
+msgstr ""
+
+#: ui/UIIPProtection.class.php:104
+msgid "IP Bans"
+msgstr ""
+
+#: ui/UIIPProtection.class.php:109
+msgid "Delete IP Bans Entries"
+msgstr ""
+
+#: ui/UIIPProtection.class.php:112
+msgid ""
+"This entries will be deleted after the blocked time is over using a WP "
+"Cronjob. If you want to reset it manually, use the button below."
+msgstr ""
+
+#: ui/UIIPProtection.class.php:137
+msgid "IP Logs"
+msgstr ""
+
+#: ui/UIIPProtection.class.php:142
+msgid "Delete IP Log Entries"
+msgstr ""
+
+#: ui/UIIPProtection.class.php:179
+msgid ""
+"Enable IP Protection. This will store the IP address SHA512 encrypted within "
+"the database and catch all submits."
+msgstr ""
+
+#: ui/UIIPProtection.class.php:186
+msgid "Max Retries"
+msgstr ""
+
+#: ui/UIIPProtection.class.php:197
+msgid ""
+"Number of failed attempts before the IP address is blocked., (recommend: 3 "
+"tries)"
+msgstr ""
+
+#: ui/UIIPProtection.class.php:204
+msgid "Period for IP address block"
+msgstr ""
+
+#: ui/UIIPProtection.class.php:215
+msgid ""
+"Define how long the IP-Address will be blocked before submitting any data "
+"again. (recommend: 3600 = 1 hour)"
+msgstr ""
+
+#: ui/UIIPProtection.class.php:222
+msgid "Time interval for detection of subsequent attacks"
+msgstr ""
+
+#: ui/UIIPProtection.class.php:233
+msgid ""
+"Enter the period of time that will be used to recognize spam (e.g. enter "
+"1000 for 1 second) (recommend: 3600 = 1 hour)."
+msgstr ""
+
+#: ui/UIIPProtection.class.php:256
+msgid ""
+"Number of seconds between form submits. If they are smaller then the entered "
+"value, the submit will be recognized as Spam. (recommend: 60 seconds)"
+msgstr ""
+
+#: ui/UIIPProtection.class.php:272 ui/UIIPProtection.class.php:277
+msgid "IP Protection"
+msgstr ""
+
+#: ui/UIIPProtection.class.php:283
+msgid "Interval Protection"
+msgstr ""
+
+#: ui/UILog.class.php:39
+msgid "Log Settings"
+msgstr ""
+
+#: ui/UILog.class.php:45
+msgid "Status"
+msgstr ""
+
+#: ui/UILog.class.php:49
+msgid "Enable Logging"
+msgstr ""
+
+#: ui/UILog.class.php:58
+msgid "If enabled, all submitted forms will be tracked within the log entries."
+msgstr ""
+
+#: ui/UIUltimateMember.class.php:80
+msgid "Ultimate Member Registration"
+msgstr ""
+
+#: ui/UIUltimateMember.class.php:101 ui/UIUltimateMember.class.php:190
+msgid "Enable Spam Protection for Ultimate Member Registration"
+msgstr ""
+
+#: ui/UIUltimateMember.class.php:169
+msgid "Ultimate Member Login"
+msgstr ""
+
+#: ui/UIWoocommerce.class.php:79
+msgid "WooCommerce Login"
+msgstr ""
+
+#: ui/UIWoocommerce.class.php:100 ui/UIWordpress.class.php:87
+msgid "Enable Spam Protection for WordPress Login"
+msgstr ""
+
+#: ui/UIWoocommerce.class.php:169
+msgid "WooCommerce Registration"
+msgstr ""
+
+#: ui/UIWoocommerce.class.php:190 ui/UIWordpress.class.php:177
+msgid "Enable Spam Protection for WordPress Registration"
+msgstr ""
+
+#: ui/UIWordpress.class.php:66
+msgid "WordPress Login"
+msgstr ""
+
+#: ui/UIWordpress.class.php:156
+msgid "WordPress Registration"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Captcha for Contact Form 7"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.forge12.com/produkt/contact-form-7-captcha/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "This plugin allows you to add a captcha to your contact form 7 forms."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Forge12 Interactive GmbH"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.forge12.com"
+msgstr ""

@@ -1,0 +1,215 @@
+# Translation of Plugins - Hide/Remove Metadata - Development (trunk) in English (UK)
+# This file is distributed under the same license as the Plugins - Hide/Remove Metadata - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-11-20 14:20:57+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Hide/Remove Metadata - Development (trunk)\n"
+
+#: hide-metadata.php:123
+msgid "You do not have sufficient permissions to access this page."
+msgstr "You do not have sufficient permissions to access this page."
+
+#: partials/sidebar.php:33
+msgid "check our free plugins."
+msgstr "check our free plugins."
+
+#: partials/sidebar.php:32
+msgid "Check out our Free WordPress Plugins and get the taste of our service without affecting your wallet."
+msgstr "Check out our Free WordPress Plugins and get the taste of our service without affecting your wallet."
+
+#: partials/sidebar.php:31
+msgid "Free Plugins"
+msgstr "Free Plugins"
+
+#: partials/sidebar.php:23
+msgid "Check our premium plugins."
+msgstr "Check our premium plugins."
+
+#: partials/sidebar.php:23
+msgid "Check out our secured Premium WordPress Plugins to enhance and add extra functionalities to your website. An exceptional way to get the most out of WordPress!"
+msgstr "Check out our secured Premium WordPress Plugins to enhance and add extra functionalities to your website. An exceptional way to get the most out of WordPress!"
+
+#: partials/sidebar.php:22
+msgid "Premium Plugins"
+msgstr "Premium Plugins"
+
+#: partials/sidebar.php:16
+msgid "Check our free themes."
+msgstr "Check our free themes."
+
+#: partials/sidebar.php:16
+msgid "Check out our collection of Free WordPress Themes that are clean, simple and feature-rich."
+msgstr "Check out our collection of Free WordPress Themes that are clean, simple and feature-rich."
+
+#: partials/sidebar.php:15
+msgid "Free Themes"
+msgstr "Free Themes"
+
+#: partials/sidebar.php:9
+msgid "Check our premium themes."
+msgstr "Check our premium themes."
+
+#: partials/sidebar.php:9
+msgid "Check out our simple, clean and responsive Premium WordPress Themes that come with an array of crucial features with a superior functionality."
+msgstr "Check out our simple, clean and responsive Premium WordPress Themes that come with an array of crucial features with a superior functionality."
+
+#: partials/sidebar.php:8
+msgid "Premium Themes"
+msgstr "Premium Themes"
+
+#: partials/sidebar.php:3
+msgid "Recommendations"
+msgstr "Recommendations"
+
+#: partials/dashboard-display.php:85
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: partials/dashboard-display.php:80
+msgid "Caution: Reset all settings to default."
+msgstr "Caution: Reset all settings to default."
+
+#: partials/dashboard-display.php:78
+msgid "Check to reset"
+msgstr "Tick to reset"
+
+#: partials/dashboard-display.php:75
+msgid "Reset Options"
+msgstr "Reset Options"
+
+#: partials/dashboard-display.php:64
+msgid "Hide published date"
+msgstr "Hide published date"
+
+#: partials/dashboard-display.php:53
+msgid "Hide author"
+msgstr "Hide author"
+
+#: partials/dashboard-display.php:49
+msgid "Whether you want to hide it with CSS only or you remove it from the Page/Code."
+msgstr "Whether you want to hide it with CSS only or you remove it from the Page/Code."
+
+#: partials/dashboard-display.php:47
+msgid "PHP"
+msgstr "PHP"
+
+#: partials/dashboard-display.php:46
+msgid "CSS"
+msgstr "CSS"
+
+#: partials/dashboard-display.php:42
+msgid "Hide By"
+msgstr "Hide By"
+
+#: partials/dashboard-display.php:24
+msgid "Plugin Options Saved."
+msgstr "Plugin Options Saved."
+
+#: hide-metadata.php:95 partials/dashboard-display.php:19
+msgid "Settings"
+msgstr "Settings"
+
+#: partials/footer.php:11
+msgid "Support"
+msgstr "Support"
+
+#: partials/footer.php:10
+msgid "View Plugins"
+msgstr "View Plugins"
+
+#: partials/footer.php:9
+msgid "View Themes"
+msgstr "View Themes"
+
+#: partials/admin-display.php:69
+msgid "Hide/Remove Metadata comes with Incredible Support. Our plugin documentation answers most questions about using the plugin.  If you’re still having difficulties, you can post it in our Support Forum."
+msgstr "Hide/Remove Metadata comes with incredible support. Our plugin documentation answers most questions about using the plugin.  If you’re still having difficulties, you can post it in our Support Forum."
+
+#: partials/admin-display.php:68
+msgid "Incredible Support"
+msgstr "Incredible Support"
+
+#: partials/admin-display.php:65
+msgid "Gutenberg Compatibility is one of the major concerns nowadays for every plugin developer. Our new Hide/Remove Metadata plugin has been crafted in a way that supports all the WordPress themes. The plugin functions smoothly on any WordPress theme."
+msgstr "Gutenberg Compatibility is one of the major concerns nowadays for every plugin developer. Our new Hide/Remove Metadata plugin has been crafted in a way that supports all the WordPress themes. The plugin functions smoothly on any WordPress theme."
+
+#: partials/admin-display.php:64
+msgid "Compatible with all WordPress Themes"
+msgstr "Compatible with all WordPress Themes"
+
+#: partials/admin-display.php:61
+msgid "Our new plugin comes with a responsive design, therefore, there is no need to strain about the plugin breaking your website."
+msgstr "Our new plugin comes with a responsive design, therefore, there is no need to strain about the plugin breaking your website."
+
+#: partials/admin-display.php:60
+msgid "Responsive Design"
+msgstr "Responsive Design"
+
+#: partials/admin-display.php:57
+msgid "Hide/Remove Metadata is an expedient WordPress plugin to hide or remove author and published date that is extremely lightweight. It means you will not have to worry about your website getting slower because of the plugin."
+msgstr "Hide/Remove Metadata is an expedient WordPress plugin to hide or remove author and published date that is extremely lightweight. It means you will not have to worry about your website getting slower because of the plugin."
+
+#: partials/admin-display.php:56
+msgid "Lightweight"
+msgstr "Lightweight"
+
+#: partials/admin-display.php:53
+msgid "Turn on the Hide Published Date option if you want to hide the published date of articles. This option is handy when it comes to evergreen articles, articles that are never outdated."
+msgstr "Turn on the Hide Published Date option if you want to hide the published date of articles. This option is handy when it comes to evergreen articles, articles that are never outdated."
+
+#: partials/admin-display.php:52
+msgid "Hide Published Date"
+msgstr "Hide Published Date"
+
+#: partials/admin-display.php:49
+msgid "If you want to hide the author of your blog, simply turn on the Hide Author option. It depends on the previous customization option if the author information would be just hidden or completely removed."
+msgstr "If you want to hide the author of your blog, simply turn on the Hide Author option. It depends on the previous customisation option if the author information would be just hidden or completely removed."
+
+#: partials/admin-display.php:48
+msgid "Hide Author"
+msgstr "Hide Author"
+
+#: partials/admin-display.php:44
+msgid "With Hide/Remove Metadata plugin, you have the freedom to either hide the author and published date or remove them completely. To partially hide the information, select CSS and to completely remove them, select PHP. By selecting and hiding through CSS, one can simply get the information with the Inspect tool. However, with PHP, the information would completely be removed, even the Inspect tool would not display the author or published date information."
+msgstr "With Hide/Remove Metadata plugin, you have the freedom to either hide the author and published date or remove them completely. To partially hide the information, select CSS and to completely remove them, select PHP. By selecting and hiding through CSS, one can simply get the information with the Inspect tool. However, with PHP, the information would completely be removed, even the Inspect tool would not display the author or published date information."
+
+#: partials/admin-display.php:43
+msgid "Hide or Remove Metadata"
+msgstr "Hide or Remove Metadata"
+
+#: partials/admin-display.php:27 partials/admin-display.php:38
+msgid "Features"
+msgstr "Features"
+
+#: partials/admin-display.php:26
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#. Author URI of the plugin
+msgid "http://catchplugins.com/"
+msgstr "http://catchplugins.com/"
+
+#. Author of the plugin
+#: partials/footer.php:4
+msgid "Catch Plugins"
+msgstr "Catch Plugins"
+
+#. Description of the plugin
+#: partials/admin-display.php:20
+msgid "Hide/Remove Metadata is a free, simple yet extremely handy WordPress plugin that helps you hide author and published date either by CSS or PHP from your website effortlessly."
+msgstr "Hide/Remove Metadata is a free, simple yet extremely handy WordPress plugin that helps you hide author and published date either by CSS or PHP from your website effortlessly."
+
+#. Plugin URI of the plugin
+msgid "http://catchplugins.com/plugins/hide-metadata"
+msgstr "http://catchplugins.com/plugins/hide-metadata"
+
+#. Plugin Name of the plugin
+#: hide-metadata.php:109 hide-metadata.php:110 partials/admin-display.php:18
+msgid "Hide/Remove Metadata"
+msgstr "Hide/Remove Metadata"

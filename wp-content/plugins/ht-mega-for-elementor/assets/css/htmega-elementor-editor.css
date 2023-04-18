@@ -1,0 +1,44 @@
+.elementor-element .icon {
+  position: relative;
+}
+.elementor-element .icon .htmega-icon::after {
+  content: "HT";
+  font-size: 10px;
+  opacity: 0.4;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.elementor-control-redirect_page_url .elementor-control-url-more{
+  display: none;
+}
+.ht-badge-icon{
+  float: right;
+}
+.htmega-pro-notice {
+  background: #efefef;
+  padding: 14px;
+  line-height: 1.5;
+  border-left: 5px solid skyblue;
+}
+/* .elementor-control-field select option[value*='pro'] {
+  background: #dddddd;
+} */
+
+.htmega-disable-control .elementor-control-input-wrapper{
+  pointer-events: none !important;
+  opacity: 0.4;
+}
+.htmega-disable-control:before {
+  content: 'Upgrade to pro to use this feature.';
+  position: absolute;
+  left: 20px;
+  bottom: 2px;
+  z-index: 2;
+  color: red;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.htmega-disable-control:hover:before {
+  opacity: 1;
+}

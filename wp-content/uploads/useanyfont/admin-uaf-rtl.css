@@ -1,0 +1,12 @@
+				@font-face {
+					font-family: 'arial';
+					src: url('/wp-content/uploads/useanyfont/4474arial.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/4474arial.woff') format('woff');
+						  font-display: auto;
+				}
+
+				.arial{font-family: 'arial' !important;}
+
+				.et_gf_arial{background:none !important;font-family:arial;text-indent:0 !important;font-size:25px;}
+
+		

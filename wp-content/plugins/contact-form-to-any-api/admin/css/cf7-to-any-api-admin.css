@@ -1,0 +1,190 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.dt-button{
+    height: auto;
+    width: 10%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #D0D3D4 !important;
+    color: black !important;
+}
+.cf7anyapi_bulk_log_delete{
+    margin-left: 4px;
+    padding: 4px 8px;
+    position: relative;
+    top: 15px;
+    text-decoration: none;
+    border: 1px solid #2271b1;
+    border-radius: 2px;
+    text-shadow: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: normal;
+    color: #2271b1;
+    background: #f6f7f7;
+    cursor: pointer;
+}
+
+.cf7anyapi_bulk_log_delete:hover{
+    background: #f0f0f1;
+    border-color: #0a4b78;
+    color: #0a4b78;
+}
+.post-type-cf7_to_any_api .cf7anyapi_documentation{
+    background: #fff;
+    padding: 50px;
+}
+.post-type-cf7_to_any_api .cf7anyapi_full_width{
+    width: 100%;
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+}
+.post-type-cf7_to_any_api .cf7anyapi_full_width code{
+    width: 100%;
+    display: grid;
+    margin-bottom: 10px;
+}
+.post-type-cf7_to_any_api #cf7anyapi-setting h2.hndle.ui-sortable-handle{
+    font-size: 16px !important;
+}
+.post-type-cf7_to_any_api .cf7anyapi_wrap{
+    margin: 0;
+    display: grid;
+    padding: 20px 12px;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+}
+.post-type-cf7_to_any_api .cf7anyapi_field{
+    display: flex;
+    flex-direction: column;
+}
+.post-type-cf7_to_any_api .cf7anyapi_field input,
+.post-type-cf7_to_any_api .cf7anyapi_field select,
+.post-type-cf7_to_any_api .cf7anyapi_field textarea{
+    height: 40px;
+    box-shadow: 0px 6px 10px rgb(0 0 0 / 20%);
+}
+.post-type-cf7_to_any_api .cf7anyapi_full_width textarea{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    box-shadow: 0px 6px 10px rgb(0 0 0 / 20%);
+}
+.post-type-cf7_to_any_api .cf7anyapi_field label,
+.post-type-cf7_to_any_api .cf7anyapi_full_width label{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 8px;
+}
+.post-type-cf7_to_any_api #poststuff .inside{
+    margin: 0;
+    padding: 0;
+}
+.post-type-cf7_to_any_api div#cf7anyapi-form-fields{
+    font-size: 18px;
+    padding: 8px 0;
+    margin: 0;
+    line-height: 1.4;
+}
+.post-type-cf7_to_any_api div#cf7anyapi-form-fields{
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.post-type-cf7_to_any_api select:focus,
+.wp-core-ui input:focus{
+    box-shadow: none !important;
+}
+
+.cf7anyapi-form-mapping-fields{
+    padding: 20px 12px;
+}
+
+.cf7anyapi_documentation h2{ font-size: 28px; }
+.cf7anyapi_documentation p, .cf7anyapi_documentation code{ font-size: 16px; line-height: 1; }
+
+
+/*CF7 Entries CSS*/
+.cf7_to_any_api_page_cf7anyapi_entries #wpwrap{
+    background-color: #F0F0F1 !important;
+}
+.cf7toanyapi_entries{
+    margin-top: 40px;
+}
+.cf7toanyapi_select_form{
+    margin-right: 40px !important;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px 10px;
+    vertical-align: middle;
+}
+.cf7toanyapi_forms{
+    background-color: #fff !important;
+    background-image: none !important;
+    border: 1px solid #ccc !important;
+    border-radius: 0 !important;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 8%) inset !important;
+    color: #555 !important;
+    font-size: 14px !important;
+    height: 34px !important;
+    line-height: 1.42857 !important;
+    margin: 0 !important;
+    padding: 6px 12px !important;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s !important;
+    width: 200px !important;
+}
+.cf_entries .buttons-csv, .cf_entries .buttons-excel, .cf_entries .buttons-pdf, .cf_entries .buttons-print{
+    border: 1px solid #0073aa;
+    background-color: #0073aa !important;
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.cf_entries .dataTables_length, .cf_entries .dataTables_info{
+    display: inline-block;
+    margin: 15px;
+    padding: 0 !important;
+}
+.cf_entries .dataTables_length label{
+    word-spacing: 5px;
+}
+.cf_entries .dataTables_filter, .cf_entries .dataTables_paginate{
+    display: flex;
+    float: right;
+    margin: 15px !important;
+}
+.cf_entries .cf7toanyapi_table{
+    border: 1px solid #c3c4c7;
+    background: #fff;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+    width: 100%;
+    overflow-x: scroll;
+}
+.cf_entries .cf7toanyapi_table thead{
+    border: 1px solid #c3c4c7 !important;
+}
+.cf_entries .cf7toanyapi_table tr, .cf_entries .cf7toanyapi_table th, .cf_entries .cf7toanyapi_table td{font-size: 15px;}
+
+.cf7toanyapi_table_wrap {display: flex; align-items: center;}
+.cf7toanyapi_table_wrap .dt-buttons{width: 80%;}
+.cf7toanyapi_table_wrap .dataTables_length, .cf7toanyapi_table_wrap .cf7toanyapi_table_filter{width: 10%;}
+
+/*CF7 Entries CSS*/
+
+@media screen and (max-width:782px){
+    .post-type-cf7_to_any_api div#cf7anyapi-form-fields{
+        grid-template-columns: 1fr;
+    }
+    .post-type-cf7_to_any_api div#cf7anyapi_admin{
+        grid-template-columns: 1fr;
+    }
+}
